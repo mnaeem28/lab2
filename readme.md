@@ -2,8 +2,9 @@
 foober is a python library for dealing with word pluralization
 
 # Installation
-use the package manager  <span style="color:blue">pip</span> to install foobar
+use the package manager pip to install foobar
 ###### pip install footer
 
 # Usage
-$\color{color-red}{your-text-here}$
+import foobar
+foobar.pluraliza('Word') 
