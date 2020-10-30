@@ -1,0 +1,23 @@
+branch :
+
+mkdir lab2
+cd lab2
+git init
+git config -global user.name "mnaeem28"
+git config -global user.email "mabdelnaeem28@gmail"
+git remote add origin https://github.com/mnaeem28/lab2.git
+touch f1
+git branch -M main
+git branch dev
+git branch test
+git push origin main
+git push origin dev
+git push origin test
+
+tag:
+git tag -a v0.0.1-m "version 0.0.1"
+
+delete tag :
+for local : git tag -d v0.0.1
+for remote : git pudh origin --delete v0.0.1
+
